@@ -1,0 +1,20 @@
+# HackerRank - Problem Solving Badge - Java - IDE : IntelliJ
+includes :
+1 SolveMeFirst.java
+2 SimpleArraySum.java
+3 CompareTriplets.java
+4 AVeryBigSum.java
+5 DiagonalDiff.java
+6 PlusMinus.java
+7 Staircase.java
+8 MinMaxSum.java
+9 BDayCandles.java
+10 TimeConversion.java
+11 GradingStudents.java
+12 AppleAndOrange.java
+13 NumberLineJumps.java
+14 BetweenTwoSets.java
+15 BreakingRecords.java
+16 SubarrayDivison.java
+17 DivisibleSumPairs.java
+18 ...continue
