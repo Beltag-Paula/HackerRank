@@ -1,1 +1,72 @@
+#Say "Hello, World!" With Python
+if __name__ == '__main__':
+    my_string = "Hello, World!"
+    print(my_string)
+////////////////////////////////////////////
+#Python If-Else
+import math
+import os
+import random
+import re
+import sys
 
+
+
+if __name__ == '__main__':
+    n = int(input().strip())
+    if (n % 2 != 0):
+      print('Weird')  
+    elif (n % 2 == 0) and (2 <= n < 6):
+      print('Not Weird')
+    elif (n % 2 == 0) and (6 <= n <= 20):
+      print('Weird')
+    elif (n % 2 == 0) and (n > 20):
+      print('Not Weird')
+////////////////////////////////////////////
+#Arithmetic Operators
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    
+    print(a+b)
+    print(a-b)
+    print(a*b)
+////////////////////////////////////////////
+#Python: Division
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    
+    print(a//b)
+    print(a/b)
+////////////////////////////////////////////
+#Loops
+if __name__ == '__main__':
+    n = int(input())
+    
+    for i in range(n):
+      print(i*i)
+////////////////////////////////////////////
+#Write a function
+def is_leap(year):
+    leap = False
+    
+    # Write your logic here
+    if year % 4 == 0 and year % 100 != 0:
+       leap = True
+    
+    elif year%100 == 0 and year % 400 == 0 and year % 4 == 0:
+       leap = True
+    
+    
+    return leap
+
+year = int(input())
+print(is_leap(year))
+///////////////////////////////////////////
+#Print Function
+if __name__ == '__main__':
+    n = int(input())
+
+    for i in range(n):
+      print(i+1,end="")
